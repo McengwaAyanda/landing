@@ -16,83 +16,24 @@ body {
     display: grid;
 }
 .header{
-    border: 2px solid whitesmoke;
     width: 100%;
+    
 }
-/* .header h2{
+.header a{
     color: black ;
-    font-size: 30px;
+    font-size: bold;
     font-weight: 500;
-} */
+    text-decoration: none;
+    justify-content: space-between;
+    padding: 10px;
+}
 .navbar{
     text-align: center;
-    padding: 10px;
-    color: red;
+    padding: 5px;
+    color: black;
     background-color: transparent;
     justify-content: space-evenly;
     justify-items: center;
-    font-size: 30px
-}
-.pictures{
-    background-color: transparent;
-    display: flexbox;
-    padding: 10px;
-    margin: 5px 5px 5px 5px;
-    text-align: center;
-    color: red;
-}
-.btn {
-    position:relative;
-    color: black;
-    font-size: 20px;
-    padding: 12px 12px;
-    cursor: pointer;
-    border-radius: 5px;
-    border: 3px solid black;
-    text-align: center;
-}
-.btn:hover{
-    background-color: red;
-    color:black  ;
-}
-.social-icons{
-    bottom: 0rem;
-    width: 170px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-left: 40rem;
-}
-.social-icons a {
-    padding: 0rem;
     text-decoration: none;
-    position: relative;
-    display: inline-flex;
-    justify-content: center;
-    border-spacing: 1rem;
-    align-items: center;
-    width: 50px;
-    height: 50px;
-    background-color: transparent;
-    border: 2px solid black;
-    border-radius: 50%;
-    font-size: 20px;
-    color:black ;
-    z-index: 1;
-    transition: 0.4s;
-}
-.social-icons a:hover{
-    background-color: red;
-}
-.social-icons a::before{
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    border-radius: 50%;
-    width: 0;
-    height: 100%;
-    background: red;
-    z-index: -1;
-    transition: 0.4s;
+    font-size: 30px
 }
