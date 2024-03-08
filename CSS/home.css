@@ -6,7 +6,6 @@
     font-family: Poppins, sans-serif;
 }
 body {
-    background-image: url("/Images/beat-audio-bg.jpg") no-repeat;
     width: 100%;
     height: 100%;
     color: black;
@@ -36,4 +35,13 @@ body {
     justify-items: center;
     text-decoration: none;
     font-size: 30px
+}
+.home-content{
+    width: 100%;
+}
+.container img{
+    width: 90%;
+    height: 500px;
+    padding: 4px;
+    margin: 50px;
 }
